@@ -1,0 +1,7 @@
+{
+  "name": "loginSocial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
