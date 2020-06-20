@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">loginSocial</string>
+    <string name="app_name">loginSocial</string>F
     <string name="title_activity_main">loginSocial</string>
     <string name="package_name">com.renatoprobst.login</string>
     <string name="custom_url_scheme">com.renatoprobst.login</string>

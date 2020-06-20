@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'login',
     loadChildren: () => import('./pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'logiaa',
+    loadChildren: () => import('./pages/logiaa/logiaa.module').then( m => m.LogiaaPageModule)
   }
 ];
 
