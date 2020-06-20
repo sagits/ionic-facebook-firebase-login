@@ -8,6 +8,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire';
 import { Facebook } from '@ionic-native/facebook/ngx';
 
@@ -26,8 +27,6 @@ const firebaseConfig = {
   entryComponents: [],
   imports: [
     AngularFireModule.initializeApp(firebaseConfig),
-    FormsModule,
-    ReactiveFormsModule,
     BrowserModule,
     IonicModule.forRoot(),
     AppRoutingModule
